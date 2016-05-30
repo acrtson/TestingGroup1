@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Campaign" verbose="1" >
+    <test name="Create" >
+        <groups>
+            <run>
+                <include name="Mobile" />
+            </run>
+        </groups>
+        <classes>
+            <class name="testng.TestNG" />
+            <class name="testng.CreateCampaignTest" />
+        </classes>
+    </test>
+</suite>
